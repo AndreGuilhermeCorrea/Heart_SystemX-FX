@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="455.0" prefWidth="711.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.fxml.FormCliente">
+   <children>
+      <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="34.0" text="Nome Completo" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="338.0" text="Endereço" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="265.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="435.0" layoutY="314.0" text="Celular" AnchorPane.leftAnchor="435.0" AnchorPane.topAnchor="225.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="314.0" text="E-mail" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="225.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="299.0" layoutY="289.0" text="Nome da Mãe" AnchorPane.leftAnchor="299.0" AnchorPane.topAnchor="185.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="289.0" text="Escolaridade" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="185.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="435.0" layoutY="264.0" text="Religião" AnchorPane.leftAnchor="435.0" AnchorPane.topAnchor="145.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="245.0" layoutY="264.0" text="Genêro" AnchorPane.leftAnchor="245.0" AnchorPane.topAnchor="145.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="264.0" text="Raça" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="145.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="492.0" layoutY="106.0" text="Nacionalidade" AnchorPane.leftAnchor="492.0" AnchorPane.topAnchor="106.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="270.0" layoutY="106.0" text="Naturalidade" AnchorPane.leftAnchor="270.0" AnchorPane.topAnchor="106.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="104.0" text="Cartão SUS" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="105.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="378.0" layoutY="65.0" text="RG" AnchorPane.topAnchor="65.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="25.0" text="CPF" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="266.0" layoutY="50.0" text="Idade" AnchorPane.leftAnchor="266.0" AnchorPane.topAnchor="65.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="33.0" layoutY="71.0" prefHeight="16.0" prefWidth="126.0" text="Data Nascimento" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="65.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="447.0" layoutY="361.0" text="Data Cadastro">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="601.0" layoutY="305.0" text="UF" AnchorPane.topAnchor="305.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="418.0" layoutY="305.0" text="CEP" AnchorPane.topAnchor="305.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="305.0" text="Cidade" AnchorPane.topAnchor="305.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="365.0" text="Bairro" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="305.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="526.0" layoutY="338.0" text="Compl." AnchorPane.topAnchor="265.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="435.0" layoutY="338.0" text="N." AnchorPane.topAnchor="265.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField id="txtNomeCompleto" fx:id="tfNomeCompleto" layoutX="136.0" layoutY="21.0" prefHeight="25.0" prefWidth="303.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtDtNasc" fx:id="tfDtNasc" layoutX="133.0" layoutY="61.0" prefHeight="25.0" prefWidth="126.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtIdade" fx:id="tfIdade" editable="false" layoutX="310.0" layoutY="61.0" prefHeight="25.0" prefWidth="47.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtCPF" fx:id="tfCPFCliente" layoutX="486.0" layoutY="21.0" prefHeight="25.0" prefWidth="196.0" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtRG" fx:id="tfRG" layoutX="425.0" layoutY="61.0" prefHeight="25.0" prefWidth="162.0" AnchorPane.rightAnchor="124.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtCartaoSUS" fx:id="txtCartaoSUS" layoutX="94.0" layoutY="101.0" prefHeight="25.0" prefWidth="169.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtNaturalidade" fx:id="tfNaturalidade" layoutX="363.0" layoutY="101.0" prefHeight="25.0" prefWidth="119.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtNacionalidade" fx:id="tfNacionalidade" layoutX="593.0" layoutY="101.0" prefHeight="25.0" prefWidth="89.0" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtRaca" fx:id="txtRaca" layoutX="51.0" layoutY="141.0" prefHeight="25.0" prefWidth="188.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtGenero" fx:id="txtGenero" layoutX="306.0" layoutY="141.0" prefHeight="25.0" prefWidth="126.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtReligiao" fx:id="tfReligiao" layoutX="500.0" layoutY="141.0" prefHeight="25.0" prefWidth="188.0" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtEscolaridade" fx:id="tfEscolaridade" layoutX="108.0" layoutY="181.0" prefHeight="25.0" prefWidth="182.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtNomeMae" fx:id="tfMae" layoutX="396.0" layoutY="181.0" prefHeight="25.0" prefWidth="292.0" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="tstEmail" fx:id="tfEmail" layoutX="61.0" layoutY="221.0" prefHeight="25.0" prefWidth="359.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtCelular" fx:id="tfCel" layoutX="484.0" layoutY="221.0" prefHeight="25.0" prefWidth="204.0" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtEndereco" fx:id="tfEndereco" layoutX="87.0" layoutY="261.0" prefHeight="25.0" prefWidth="334.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtNum" fx:id="tfEndNum" layoutX="461.0" layoutY="261.0" prefHeight="25.0" prefWidth="60.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtCompl" fx:id="tfComplemento" layoutX="586.0" layoutY="261.0" prefHeight="25.0" prefWidth="102.0" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtBairro" fx:id="tfBairro" layoutX="61.0" layoutY="301.0" prefHeight="25.0" prefWidth="152.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txCidade" fx:id="tfCidade" layoutX="280.0" layoutY="301.0" prefHeight="25.0" prefWidth="126.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtCEP" fx:id="tfCEP" layoutX="456.0" layoutY="301.0" prefHeight="25.0" prefWidth="132.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtUF" fx:id="tfUF" layoutX="637.0" layoutY="301.0" prefHeight="25.0" prefWidth="51.0" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <TextField id="txtDtCadastro" fx:id="tfDtCadastro" layoutX="552.0" layoutY="356.0" prefHeight="25.0" prefWidth="126.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></TextField>
+      <ImageView layoutX="41.0" layoutY="349.0">
+         <image>
+            <Image url="@../icons/health-64.png" />
+         </image>
+      </ImageView>
+      <Button id="btLoc" fx:id="btLoc" layoutX="612.0" layoutY="53.0" mnemonicParsing="false" onAction="#onClickPesq" prefHeight="38.0" prefWidth="38.0">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="31.0">
+               <image>
+                  <Image url="@../icons/MetroUI-Other-Search-icon.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="btAtualiza" layoutX="488.0" layoutY="401.0" mnemonicParsing="false" onAction="#onClickAtualiza" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/Save-as-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btExclui" layoutX="543.0" layoutY="401.0" mnemonicParsing="false" onAction="#onClickDelete" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/Actions-application-exit-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btSaveUser" layoutX="598.0" layoutY="401.0" mnemonicParsing="false" onAction="#onClickInsert" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/Actions-contact-new-icon%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btCancel" layoutX="653.0" layoutY="401.0" mnemonicParsing="false" onAction="#cnc" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/fechar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

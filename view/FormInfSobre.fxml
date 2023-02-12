@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.fxml.FormInfSobre">
+   <children>
+      <TextArea editable="false" layoutX="52.0" layoutY="70.0" prefHeight="307.0" prefWidth="597.0" text="SOBRE: &#10;&#10;O avanço tecnológico permite ao mundo facilidades incríveis que vão além do conforto, entretanto, há um aumento significativo de doenças crônicas como diabetes, hipertenção, câncer, acidente vascular encefálico entre tantas outras.&#10;&#10;São problemas relacionados com obesidade, estresse, baixa-estima, sedentarismo, alto uso de alcool, tabaco e outras drogas. &#10;&#10;Parte desse caos está diretamente relacionado a falta de atividade física, portanto essa prática além de proteger e promover a saúde na população, resulta no ganho significativo de benefícios. &#10;&#10;A prática de atividade física é também considerada lazer e visa reduzir os níveis de estresses como: ansiedade, irritabilidade e depressão, além de manter uma boa forma física e melhorar a qualidade de vida, autoimagem e autoestima do praticante, promovendo bem-estar." wrapText="true">
+         <font>
+            <Font name="Trebuchet MS" size="13.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="btCancel" layoutX="622.0" layoutY="417.0" mnemonicParsing="false" onAction="#cnc" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/fechar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

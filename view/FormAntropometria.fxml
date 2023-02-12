@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="552.0" prefWidth="705.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.fxml.FormAntropometria">
+   <children>
+      <Label layoutX="24.0" layoutY="25.0" prefHeight="20.0" prefWidth="32.0" text="CPF" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <TextField fx:id="tfCpfA" layoutX="55.0" layoutY="8.0" prefHeight="25.0" prefWidth="149.0" />
+      <Button id="btLoc" fx:id="btLoc" layoutX="228.0" layoutY="8.0" mnemonicParsing="false" onAction="#onClickPesq" prefHeight="20.0" prefWidth="32.0">
+         <graphic>
+            <ImageView fx:id="btLcCpf">
+               <image>
+                  <Image url="@../icons/lupaBranca.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="116.0" layoutY="54.0" prefHeight="15.0" prefWidth="50.0" text="Peso(kg)" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="52.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPeso" layoutX="179.0" layoutY="46.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="179.0" AnchorPane.topAnchor="46.0" />
+      <Label layoutX="116.0" layoutY="84.0" prefHeight="15.0" prefWidth="59.0" text="Altura(mt)" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="82.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfAltura" layoutX="179.0" layoutY="76.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="179.0" AnchorPane.topAnchor="76.0" />
+      <Label layoutX="311.0" layoutY="49.0" prefHeight="15.0" prefWidth="76.0" text="Pedômetro 1°" AnchorPane.leftAnchor="311.0" AnchorPane.topAnchor="49.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPedometro1" layoutX="402.0" layoutY="48.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="402.0" AnchorPane.topAnchor="46.0" />
+      <Label layoutX="311.0" layoutY="79.0" prefHeight="15.0" prefWidth="76.0" text="Pedômetro 2°" AnchorPane.leftAnchor="311.0" AnchorPane.topAnchor="79.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPedometro2" layoutX="402.0" layoutY="78.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="402.0" AnchorPane.topAnchor="76.0" />
+      <Label layoutX="311.0" layoutY="109.0" prefHeight="15.0" prefWidth="76.0" text="Pedômetro 3°" AnchorPane.leftAnchor="311.0" AnchorPane.topAnchor="109.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPedometro3" layoutX="402.0" layoutY="108.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="402.0" AnchorPane.topAnchor="106.0" />
+      <Label layoutX="17.0" layoutY="176.0" prefHeight="15.0" prefWidth="85.0" text="Circ. Punho(cm)" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="172.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <TextField fx:id="tfcPunho" layoutX="110.0" layoutY="167.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="170.0" />
+      <Label layoutX="10.0" layoutY="200.0" prefHeight="15.0" prefWidth="85.0" text="Circ. Cintura(cm)" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="200.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <TextField fx:id="tfcCintura" layoutX="100.0" layoutY="198.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="200.0" />
+      <Label layoutX="10.0" layoutY="230.0" prefHeight="15.0" prefWidth="85.0" text="Circ. Quadril(cm)" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="230.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <TextField fx:id="tfcQuadril" layoutX="100.0" layoutY="228.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="230.0" />
+      <Label layoutX="162.0" layoutY="173.0" prefHeight="15.0" prefWidth="90.0" text="P.C. Torax(mm)" AnchorPane.leftAnchor="162.0" AnchorPane.topAnchor="173.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPcTorax" layoutX="252.0" layoutY="171.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="252.0" AnchorPane.topAnchor="170.0" />
+      <Label layoutX="162.0" layoutY="203.0" prefHeight="15.0" prefWidth="90.0" text="P.C. Abd.(mm)" AnchorPane.leftAnchor="162.0" AnchorPane.topAnchor="200.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPcAbdomem" layoutX="252.0" layoutY="201.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="252.0" AnchorPane.topAnchor="200.0" />
+      <Label layoutX="162.0" layoutY="233.0" prefHeight="15.0" prefWidth="90.0" text="P.C. Coxa(mm)" AnchorPane.leftAnchor="162.0" AnchorPane.topAnchor="230.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPcCoxa" layoutX="252.0" layoutY="231.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="252.0" AnchorPane.topAnchor="230.0" />
+      <Label layoutX="162.0" layoutY="263.0" prefHeight="15.0" prefWidth="90.0" text="P.C. Triciptal(mm)" AnchorPane.leftAnchor="162.0" AnchorPane.topAnchor="260.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPcTricip" layoutX="252.0" layoutY="261.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="252.0" AnchorPane.topAnchor="260.0" />
+      <Label layoutX="309.0" layoutY="172.0" prefHeight="15.0" prefWidth="115.0" text="P.C. Suprailiaca(mm)" AnchorPane.leftAnchor="309.0" AnchorPane.topAnchor="172.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPcSuprailiaca" layoutX="429.0" layoutY="170.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="429.0" AnchorPane.topAnchor="170.0" />
+      <Label layoutX="444.0" layoutY="236.0" prefHeight="15.0" prefWidth="155.0" text="Sentar/Alcançar(Wells e Dillon)" AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="238.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfSentarAlcanca" layoutX="640.0" layoutY="238.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="640.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="238.0" />
+      <Label layoutX="482.0" layoutY="452.0" text="Data Cadastro" />
+      <TextField fx:id="tfDtCadastroA" layoutX="571.0" layoutY="448.0" prefHeight="25.0" prefWidth="110.0" AnchorPane.rightAnchor="14.0" />
+      <Button fx:id="btCalc" layoutX="430.0" layoutY="386.0" mnemonicParsing="false" onAction="#onClickCalc" prefHeight="56.0" prefWidth="59.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/Calculator-2-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="tfNomeClienteA" layoutX="289.0" layoutY="8.0" prefHeight="25.0" prefWidth="399.0" text="Nome Cliente" />
+      <TextField fx:id="tfIdade" alignment="CENTER" editable="false" layoutX="18.0" layoutY="39.0" prefHeight="56.0" prefWidth="65.0" text="Id" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="39.0">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfSexo" alignment="CENTER" editable="false" layoutX="18.0" layoutY="104.0" prefHeight="65.0" prefWidth="65.0" text="Sx">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </TextField>
+      <Label layoutX="116.0" layoutY="114.0" prefHeight="15.0" prefWidth="50.0" text="IMC" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="112.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfIMC" editable="false" layoutX="179.0" layoutY="106.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="179.0" AnchorPane.topAnchor="106.0" />
+      <Label layoutX="116.0" layoutY="144.0" prefHeight="15.0" prefWidth="50.0" text="Class. IMC" AnchorPane.leftAnchor="116.0" AnchorPane.topAnchor="142.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfCIMC" editable="false" layoutX="179.0" layoutY="136.0" prefHeight="25.0" prefWidth="110.0" AnchorPane.leftAnchor="179.0" AnchorPane.topAnchor="136.0" />
+      <Label layoutX="308.0" layoutY="136.0" prefHeight="15.0" prefWidth="76.0" text="Risco a Saúde">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfRiscoSaude" editable="false" layoutX="405.0" layoutY="139.0" prefHeight="25.0" prefWidth="115.0" AnchorPane.leftAnchor="402.0" AnchorPane.topAnchor="136.0" />
+      <Label layoutX="466.0" layoutY="52.0" prefHeight="15.0" prefWidth="105.0" text="Pedômetro Class." AnchorPane.leftAnchor="466.0" AnchorPane.topAnchor="52.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPedometroClass" editable="false" layoutX="581.0" layoutY="50.0" prefHeight="25.0" prefWidth="110.0" AnchorPane.leftAnchor="581.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="46.0" />
+      <Label layoutX="466.0" layoutY="82.0" prefHeight="15.0" prefWidth="105.0" text="Pedômetro Média">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfPedometroMedia" editable="false" layoutX="581.0" layoutY="80.0" prefHeight="25.0" prefWidth="70.0" AnchorPane.topAnchor="76.0" />
+      <Label layoutX="10.0" layoutY="258.0" prefHeight="15.0" prefWidth="85.0" text="Razão C.Q." AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="260.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <TextField fx:id="tfRazaoCintQuad" editable="false" layoutX="100.0" layoutY="257.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="260.0" />
+      <Label layoutX="309.0" layoutY="203.0" prefHeight="15.0" prefWidth="65.0" text="Soma D.C." AnchorPane.leftAnchor="309.0" AnchorPane.topAnchor="200.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfSomaDobras" editable="false" layoutX="429.0" layoutY="200.0" prefHeight="25.0" prefWidth="42.0" />
+      <Label layoutX="444.0" layoutY="266.0" prefHeight="15.0" prefWidth="100.0" text="Nível flexibilidade " AnchorPane.leftAnchor="444.0" AnchorPane.topAnchor="268.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfNivelFlexib" editable="false" layoutX="571.0" layoutY="269.0" prefHeight="25.0" prefWidth="115.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="268.0" />
+      <Label layoutX="10.0" layoutY="314.0" prefHeight="15.0" prefWidth="80.0" text="\% Gord." AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="314.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfMassaCPercentual" editable="false" layoutX="107.0" layoutY="312.0" prefHeight="25.0" prefWidth="50.0" AnchorPane.topAnchor="312.0" />
+      <Label layoutX="14.0" layoutY="340.0" prefHeight="15.0" prefWidth="80.0" text="Massa C. Magra" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="344.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfMassaCMagra" editable="false" layoutX="107.0" layoutY="340.0" prefHeight="25.0" prefWidth="50.0" AnchorPane.leftAnchor="107.0" AnchorPane.topAnchor="342.0" />
+      <Label layoutX="14.0" layoutY="370.0" prefHeight="15.0" prefWidth="80.0" text="Massa C. Gorda" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="374.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfMassaCGorda" editable="false" layoutX="107.0" layoutY="370.0" prefHeight="25.0" prefWidth="50.0" AnchorPane.leftAnchor="107.0" AnchorPane.topAnchor="372.0" />
+      <Label layoutX="10.0" layoutY="406.0" prefHeight="15.0" prefWidth="90.0" text="Densidade(ASCM)" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="406.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfDensidade" editable="false" layoutX="110.0" layoutY="404.0" prefHeight="25.0" prefWidth="50.0" AnchorPane.leftAnchor="107.0" AnchorPane.topAnchor="404.0" />
+      <Label layoutX="218.0" layoutY="312.0" prefHeight="15.0" prefWidth="85.0" text="Peso Desejável" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="314.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <TextField fx:id="tfPesoDesejavel" editable="false" layoutX="280.0" layoutY="310.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="270.0" AnchorPane.topAnchor="312.0" />
+      <Label layoutX="218.0" layoutY="342.0" prefHeight="15.0" prefWidth="85.0" text="IMC Desejável" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="344.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <TextField fx:id="tfIMCDesejavel" editable="false" layoutX="280.0" layoutY="340.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="270.0" AnchorPane.topAnchor="342.0" />
+      <Label layoutX="168.0" layoutY="376.0" prefHeight="15.0" prefWidth="85.0" text="Compleição" AnchorPane.leftAnchor="168.0" AnchorPane.topAnchor="376.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfCompleicao" editable="false" layoutX="268.0" layoutY="374.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="268.0" AnchorPane.topAnchor="374.0" />
+      <Label layoutX="168.0" layoutY="406.0" prefHeight="15.0" prefWidth="85.0" text="Tipo Compleição" AnchorPane.leftAnchor="168.0" AnchorPane.topAnchor="406.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfTipoComp" editable="false" layoutX="268.0" layoutY="404.0" prefHeight="25.0" prefWidth="110.0" AnchorPane.leftAnchor="268.0" AnchorPane.topAnchor="404.0" />
+      <Label layoutX="325.0" layoutY="313.0" prefHeight="15.0" prefWidth="105.0" text="Adequação Peso(%)" AnchorPane.leftAnchor="325.0" AnchorPane.topAnchor="314.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <TextField fx:id="tfAdequacaoPeso" editable="false" layoutX="441.0" layoutY="312.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="441.0" AnchorPane.topAnchor="312.0" />
+      <Label layoutX="325.0" layoutY="341.0" prefHeight="15.0" prefWidth="105.0" text="Peso Ajustado" AnchorPane.leftAnchor="325.0" AnchorPane.topAnchor="344.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <TextField fx:id="tfPesoAjustado" editable="false" layoutX="441.0" layoutY="340.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="441.0" AnchorPane.topAnchor="342.0" />
+      <Button fx:id="btAtualiza" layoutX="483.0" layoutY="492.0" mnemonicParsing="false" onAction="#onClickAtualiza" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/Save-as-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btExclui" layoutX="538.0" layoutY="492.0" mnemonicParsing="false" onAction="#onClickDelete" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/Actions-application-exit-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btSaveUser" layoutX="593.0" layoutY="492.0" mnemonicParsing="false" onAction="#onClickInsert" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/Actions-contact-new-icon%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btCancel" layoutX="648.0" layoutY="492.0" mnemonicParsing="false" onAction="#cnc" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/fechar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

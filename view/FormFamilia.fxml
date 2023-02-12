@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="319.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.fxml.FormFamilia">
+   <children>
+      <Label layoutX="24.0" layoutY="25.0" prefHeight="20.0" prefWidth="32.0" text="CPF" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Label fx:id="tfNomeFam" layoutX="273.0" layoutY="10.0" prefHeight="20.0" prefWidth="233.0" text="Nome Cliente" />
+      <Button id="btLoc" fx:id="btLocaliza" layoutX="228.0" layoutY="8.0" mnemonicParsing="false" onAction="#onClickPesq" prefHeight="20.0" prefWidth="32.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/lupaBranca.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="10.0" layoutY="52.0" prefHeight="15.0" prefWidth="120.0" text="1- Patologia Cardíaca?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="52.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="82.0" prefHeight="15.0" prefWidth="120.0" text="2- Patologia Arterial?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="82.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="298.0" layoutY="172.0" prefHeight="15.0" prefWidth="120.0" text="11- Asmatico?" AnchorPane.leftAnchor="230.0" AnchorPane.topAnchor="172.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="298.0" layoutY="49.0" prefHeight="15.0" prefWidth="120.0" text="7- Câncer?" AnchorPane.leftAnchor="230.0" AnchorPane.topAnchor="52.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="298.0" layoutY="79.0" prefHeight="15.0" prefWidth="120.0" text="8- Hipertenso?" AnchorPane.leftAnchor="230.0" AnchorPane.topAnchor="82.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="298.0" layoutY="109.0" prefHeight="15.0" prefWidth="120.0" text="9- Renal?" AnchorPane.leftAnchor="230.0" AnchorPane.topAnchor="112.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="298.0" layoutY="139.0" prefHeight="15.0" prefWidth="120.0" text="10- AVC?" AnchorPane.leftAnchor="230.0" AnchorPane.topAnchor="142.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="307.0" layoutY="236.0" text="Data Cadastro" />
+      <TextField fx:id="tfDtCadFam" layoutX="396.0" layoutY="232.0" prefHeight="25.0" prefWidth="110.0" />
+      <TextField fx:id="tfFam1" layoutX="220.0" layoutY="50.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="50.0" />
+      <TextField fx:id="tfFam2" layoutX="220.0" layoutY="80.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="80.0" />
+      <TextField fx:id="tfFam11" layoutX="508.0" layoutY="170.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="170.0" />
+      <TextField fx:id="tfFam7" layoutX="508.0" layoutY="47.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="50.0" />
+      <TextField fx:id="tfFam8" layoutX="508.0" layoutY="77.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="80.0" />
+      <TextField fx:id="tfFam9" layoutX="508.0" layoutY="107.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="110.0" />
+      <TextField fx:id="tfFam10" layoutX="508.0" layoutY="137.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="140.0" />
+      <ImageView fx:id="Icon" layoutX="23.0" layoutY="232.0">
+         <image>
+            <Image url="@../icons/medical-mobile-80.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="10.0" layoutY="175.0" prefHeight="15.0" prefWidth="120.0" text="5- Etilista?" AnchorPane.topAnchor="172.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="10.0" layoutY="205.0" prefHeight="17.0" prefWidth="120.0" text="6- Diabetes?" AnchorPane.topAnchor="202.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="10.0" layoutY="111.0" prefHeight="15.0" prefWidth="120.0" text="3- Patologia Pulmonar?" AnchorPane.topAnchor="112.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="10.0" layoutY="141.0" prefHeight="15.0" prefWidth="120.0" text="4- Tabagista?" AnchorPane.topAnchor="142.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <TextField fx:id="tfFam5" layoutX="219.0" layoutY="174.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="170.0" />
+      <TextField fx:id="tfFam6" layoutX="219.0" layoutY="205.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="200.0" />
+      <TextField fx:id="tfFam3" layoutX="220.0" layoutY="111.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="110.0" />
+      <TextField fx:id="tfFam4" layoutX="220.0" layoutY="141.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="140.0" />
+      <TextField fx:id="tfCpfFam" layoutX="42.0" layoutY="8.0" prefHeight="25.0" prefWidth="166.0" />
+      <Button fx:id="btAtualiza" layoutX="307.0" layoutY="265.0" mnemonicParsing="false" onAction="#onClickAtualiza" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/Save-as-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btExclui" layoutX="362.0" layoutY="265.0" mnemonicParsing="false" onAction="#onClickDelete" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/Actions-application-exit-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btSaveUser" layoutX="417.0" layoutY="265.0" mnemonicParsing="false" onAction="#onClickInsert" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/Actions-contact-new-icon%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btCancel" layoutX="472.0" layoutY="265.0" mnemonicParsing="false" onAction="#cnc" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/fechar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

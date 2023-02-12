@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="506.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.fxml.FormSaude">
+   <children>
+      <Label layoutX="24.0" layoutY="25.0" prefHeight="20.0" prefWidth="32.0" text="CPF" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Label fx:id="tfNomeCliente" layoutX="273.0" layoutY="10.0" prefHeight="20.0" prefWidth="233.0" text="Nome Cliente" />
+      <Button id="btLoc" fx:id="btLoc" layoutX="228.0" layoutY="8.0" mnemonicParsing="false" onAction="#onClickPesq" prefHeight="20.0" prefWidth="32.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/lupaBranca.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="10.0" layoutY="52.0" prefHeight="15.0" prefWidth="200.0" text="1- Tabagista" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="52.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="82.0" prefHeight="15.0" prefWidth="200.0" text="2- Etilista" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="82.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="112.0" prefHeight="15.0" prefWidth="200.0" text="3- Faz Algum tipo de dieta?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="112.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="142.0" prefHeight="15.0" prefWidth="200.0" text="4- Sente falta de Ar?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="142.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="172.0" prefHeight="15.0" prefWidth="200.0" text="5- Possui vida sexual ativa?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="172.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="202.0" prefHeight="15.0" prefWidth="200.0" text="6- Faz uso de medicação?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="202.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="232.0" prefHeight="15.0" prefWidth="200.0" text="7- É diabetico?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="232.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="262.0" prefHeight="15.0" prefWidth="200.0" text="8- Sente dores no peito?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="262.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="292.0" prefHeight="15.0" prefWidth="200.0" text="9- É hipertenso?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="292.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="322.0" prefHeight="15.0" prefWidth="200.0" text="10- Tem niveis de colesterol alterados?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="322.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="352.0" prefHeight="15.0" prefWidth="200.0" text="11- Tem níveis de triglicérides alterados?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="352.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="382.0" prefHeight="15.0" prefWidth="200.0" text="12- É anemico?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="382.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="289.0" layoutY="50.0" prefHeight="15.0" prefWidth="120.0" text="13- Gota?" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="289.0" layoutY="80.0" prefHeight="15.0" prefWidth="120.0" text="14- Alérgico?" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="80.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="289.0" layoutY="110.0" prefHeight="15.0" prefWidth="120.0" text="15- Cardíaco?" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="110.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="289.0" layoutY="140.0" prefHeight="15.0" prefWidth="120.0" text="16- Tem arritmia?" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="140.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="289.0" layoutY="170.0" prefHeight="15.0" prefWidth="120.0" text="17- Ja teve infarto?" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="170.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="288.0" layoutY="200.0" prefHeight="15.0" prefWidth="120.0" text="18- Possui stent?" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="200.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="288.0" layoutY="230.0" prefHeight="15.0" prefWidth="120.0" text="19- Cateterismo?" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="230.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="288.0" layoutY="260.0" prefHeight="15.0" prefWidth="120.0" text="20- AVC?" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="260.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="288.0" layoutY="290.0" prefHeight="15.0" prefWidth="120.0" text="21- Problemas renais?" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="290.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="290.0" layoutY="320.0" prefHeight="15.0" prefWidth="120.0" text="22- Câncer?" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="320.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="290.0" layoutY="350.0" prefHeight="15.0" prefWidth="120.0" text="23- Hepatite?" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="350.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="290.0" layoutY="380.0" prefHeight="15.0" prefWidth="120.0" text="24- Labirintite?" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="380.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="506.0" layoutY="425.0" text="Data Cadastro" />
+      <TextField fx:id="tfDtCadastroS" layoutX="595.0" layoutY="421.0" prefHeight="25.0" prefWidth="110.0" />
+      <Button fx:id="btSave" layoutX="506.0" layoutY="457.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" text="Save" />
+      <Button fx:id="btCancel" layoutX="629.0" layoutY="457.0" mnemonicParsing="false" onAction="#cnc" prefHeight="25.0" prefWidth="76.0" text="Cancel" />
+      <TextField fx:id="tfS1" layoutX="220.0" layoutY="50.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="50.0" />
+      <TextField fx:id="tfS2" layoutX="220.0" layoutY="80.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="80.0" />
+      <TextField fx:id="tfS3" layoutX="220.0" layoutY="110.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="110.0" />
+      <TextField fx:id="tfS4" layoutX="220.0" layoutY="140.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="140.0" />
+      <TextField fx:id="tfS5" layoutX="220.0" layoutY="170.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="170.0" />
+      <TextField fx:id="tfS6" layoutX="220.0" layoutY="200.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="200.0" />
+      <TextField fx:id="tfS7" layoutX="220.0" layoutY="230.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="230.0" />
+      <TextField fx:id="tfS8" layoutX="220.0" layoutY="260.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="260.0" />
+      <TextField fx:id="tfS9" layoutX="220.0" layoutY="290.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="290.0" />
+      <TextField fx:id="tfS10" layoutX="220.0" layoutY="320.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="320.0" />
+      <TextField fx:id="tfS11" layoutX="220.0" layoutY="350.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="350.0" />
+      <TextField fx:id="tfS12" layoutX="220.0" layoutY="380.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="380.0" />
+      <TextField fx:id="tfS13" layoutX="420.0" layoutY="45.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="45.0" />
+      <TextField fx:id="tfS14" layoutX="420.0" layoutY="75.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS15" layoutX="420.0" layoutY="105.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS16" layoutX="420.0" layoutY="135.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS17" layoutX="420.0" layoutY="165.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS18" layoutX="420.0" layoutY="195.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS19" layoutX="420.0" layoutY="225.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS20" layoutX="420.0" layoutY="255.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS21" layoutX="420.0" layoutY="285.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS22" layoutX="420.0" layoutY="315.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS23" layoutX="420.0" layoutY="345.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS24" layoutX="420.0" layoutY="375.0" prefHeight="25.0" prefWidth="42.0" />
+      <ImageView fx:id="Icon" layoutX="26.0" layoutY="406.0">
+         <image>
+            <Image url="@../icons/medical-mobile-80.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="498.0" layoutY="51.0" prefHeight="15.0" prefWidth="160.0" text="25- Alguma Patologia Arterial?" AnchorPane.leftAnchor="480.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="498.0" layoutY="81.0" prefHeight="17.0" prefWidth="160.0" text="26- Alguma Patologia Pulmonar?" AnchorPane.leftAnchor="480.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="498.0" layoutY="111.0" prefHeight="15.0" prefWidth="120.0" text="27- Tireóide?" AnchorPane.leftAnchor="480.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="498.0" layoutY="141.0" prefHeight="15.0" prefWidth="120.0" text="28- Hábito Menstrual?" AnchorPane.leftAnchor="480.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="498.0" layoutY="171.0" prefHeight="15.0" prefWidth="120.0" text="29- Hábito Intestinal?" AnchorPane.leftAnchor="480.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="497.0" layoutY="201.0" prefHeight="15.0" prefWidth="170.0" text="30- Alguma Patologia Ortopédica?" AnchorPane.leftAnchor="480.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <Label layoutX="497.0" layoutY="231.0" prefHeight="15.0" prefWidth="120.0" text="31- Dores de cabeça?" AnchorPane.leftAnchor="480.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font></Label>
+      <TextField fx:id="tfS25" layoutX="670.0" layoutY="48.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS26" layoutX="670.0" layoutY="78.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS27" layoutX="670.0" layoutY="108.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS28" layoutX="612.0" layoutY="138.0" prefHeight="25.0" prefWidth="100.0" />
+      <TextField fx:id="tfS29" layoutX="612.0" layoutY="168.0" prefHeight="25.0" prefWidth="100.0" />
+      <TextField fx:id="tfS30" layoutX="670.0" layoutY="198.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfS31" layoutX="670.0" layoutY="228.0" prefHeight="25.0" prefWidth="42.0" />
+      <TextField fx:id="tfCPFClienteS" layoutX="42.0" layoutY="8.0" prefHeight="25.0" prefWidth="166.0" />
+   </children>
+</AnchorPane>

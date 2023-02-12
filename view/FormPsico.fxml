@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="514.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.fxml.FormPsico">
+   <children>
+      <Label layoutX="24.0" layoutY="25.0" prefHeight="20.0" prefWidth="32.0" text="CPF" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Label fx:id="tfNomePsico" layoutX="273.0" layoutY="10.0" prefHeight="20.0" prefWidth="233.0" text="Nome Cliente" />
+      <Button id="btLoc" fx:id="btLoc" layoutX="228.0" layoutY="8.0" mnemonicParsing="false" onAction="#onClickPesq" prefHeight="20.0" prefWidth="32.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/lupaBranca.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="10.0" layoutY="52.0" prefHeight="15.0" prefWidth="353.0" text="1- Interesse em acompanhamento Psicológico?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="52.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="82.0" prefHeight="17.0" prefWidth="353.0" text="2- Possui alguma patologia limitante para exercicio do Programa?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="82.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="112.0" prefHeight="15.0" prefWidth="353.0" text="3- Possui sentimento de tristeza com frequencia?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="112.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="142.0" prefHeight="15.0" prefWidth="353.0" text="4- Possui sentimento de solidão com frequencia?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="142.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="172.0" prefHeight="15.0" prefWidth="353.0" text="5- Possui algum transtorno?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="172.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="202.0" prefHeight="15.0" prefWidth="353.0" text="6- Os pensamentos são organizados?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="202.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="232.0" prefHeight="15.0" prefWidth="353.0" text="7- A linguagem e o diálogo são claros? " AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="232.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="262.0" prefHeight="15.0" prefWidth="353.0" text="8- Possui dificuldade de concentração?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="262.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="292.0" prefHeight="15.0" prefWidth="353.0" text="9- Possui dificuldade de memorizar?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="292.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="322.0" prefHeight="15.0" prefWidth="353.0" text="10- Faz acompanhamento com psicológo ou psiquiatra? " AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="322.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="352.0" prefHeight="15.0" prefWidth="353.0" text="11- Já fez acompanhamento com psicológo ou psiquiatra?" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="352.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="382.0" prefHeight="15.0" prefWidth="353.0" text="12- Sente-se Amado ou acolhido por Amigos e/ou Familiares? " AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="382.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="429.0" layoutY="51.0" prefHeight="15.0" prefWidth="250.0" text="13- Dorme bem?" AnchorPane.topAnchor="51.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="429.0" layoutY="81.0" prefHeight="15.0" prefWidth="250.0" text="14- Se Automedica?" AnchorPane.topAnchor="81.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="429.0" layoutY="111.0" prefHeight="15.0" prefWidth="250.0" text="15- Faz uso elevado de Álcool?" AnchorPane.topAnchor="111.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="429.0" layoutY="141.0" prefHeight="15.0" prefWidth="250.0" text="16- Faz uso de Drogas?" AnchorPane.topAnchor="141.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="429.0" layoutY="171.0" prefHeight="15.0" prefWidth="250.0" text="17- Possui bom relacionamento Familiar?" AnchorPane.topAnchor="171.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="201.0" prefHeight="15.0" prefWidth="250.0" text="18- Possui bom relacionamento Social? " AnchorPane.topAnchor="201.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="231.0" prefHeight="15.0" prefWidth="250.0" text="19- Pratica atividade física?" AnchorPane.topAnchor="231.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="261.0" prefHeight="15.0" prefWidth="250.0" text="20- Possui planos para o futuro?" AnchorPane.topAnchor="261.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="291.0" prefHeight="15.0" prefWidth="250.0" text="21- Pra voce a vida vale a pena?" AnchorPane.topAnchor="291.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="321.0" prefHeight="17.0" prefWidth="250.0" text="22- Caso a morte surgisse ela seria bem vinda?" AnchorPane.topAnchor="321.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="351.0" prefHeight="15.0" prefWidth="250.0" text="23- Já cogitou se machucar/ferir/morrer?" AnchorPane.topAnchor="351.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="381.0" prefHeight="15.0" prefWidth="250.0" text="24- Já tentou suícidio?" AnchorPane.topAnchor="381.0">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="506.0" layoutY="425.0" text="Data Cadastro" />
+      <TextField fx:id="tfDtCadPsico" layoutX="595.0" layoutY="421.0" prefHeight="25.0" prefWidth="110.0" />
+      <TextField fx:id="tfPsico1" layoutX="369.0" layoutY="49.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="49.0" />
+      <TextField fx:id="tfPsico2" layoutX="369.0" layoutY="79.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="79.0" />
+      <TextField fx:id="tfPsico3" layoutX="369.0" layoutY="109.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="109.0" />
+      <TextField fx:id="tfPsico4" layoutX="369.0" layoutY="139.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="139.0" />
+      <TextField fx:id="tfPsico5" layoutX="369.0" layoutY="169.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="169.0" />
+      <TextField fx:id="tfPsico6" layoutX="369.0" layoutY="199.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="199.0" />
+      <TextField fx:id="tfPsico7" layoutX="369.0" layoutY="229.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="229.0" />
+      <TextField fx:id="tfPsico8" layoutX="369.0" layoutY="259.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="259.0" />
+      <TextField fx:id="tfPsico9" layoutX="369.0" layoutY="289.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="289.0" />
+      <TextField fx:id="tfPsico10" layoutX="369.0" layoutY="319.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="319.0" />
+      <TextField fx:id="tfPsico11" layoutX="369.0" layoutY="349.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="349.0" />
+      <TextField fx:id="tfPsico12" layoutX="369.0" layoutY="379.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="379.0" />
+      <TextField fx:id="tfPsico13" layoutX="675.0" layoutY="47.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="690.0" AnchorPane.topAnchor="47.0" />
+      <TextField fx:id="tfPsico14" layoutX="675.0" layoutY="77.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="690.0" />
+      <TextField fx:id="tfPsico15" layoutX="675.0" layoutY="107.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="690.0" />
+      <TextField fx:id="tfPsico16" layoutX="675.0" layoutY="137.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="690.0" />
+      <TextField fx:id="tfPsico17" layoutX="675.0" layoutY="167.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="690.0" />
+      <TextField fx:id="tfPsico18" layoutX="675.0" layoutY="197.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="690.0" />
+      <TextField fx:id="tfPsico19" layoutX="675.0" layoutY="227.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="690.0" />
+      <TextField fx:id="tfPsico20" layoutX="675.0" layoutY="257.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="690.0" />
+      <TextField fx:id="tfPsico21" layoutX="675.0" layoutY="287.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="690.0" />
+      <TextField fx:id="tfPsico22" layoutX="675.0" layoutY="317.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="690.0" />
+      <TextField fx:id="tfPsico23" layoutX="675.0" layoutY="347.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="690.0" />
+      <TextField fx:id="tfPsico24" layoutX="675.0" layoutY="377.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.leftAnchor="690.0" />
+      <ImageView fx:id="Icon" layoutX="26.0" layoutY="406.0">
+         <image>
+            <Image url="@../icons/medical-mobile-80.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tfCPFPsico" layoutX="42.0" layoutY="8.0" prefHeight="25.0" prefWidth="166.0" />
+      <Button fx:id="btAtualiza" layoutX="527.0" layoutY="458.0" mnemonicParsing="false" onAction="#onClickAtualiza" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/Save-as-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btExclui" layoutX="582.0" layoutY="458.0" mnemonicParsing="false" onAction="#onClickDelete" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/Actions-application-exit-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btSaveUser" layoutX="637.0" layoutY="458.0" mnemonicParsing="false" onAction="#onClickInsert" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/Actions-contact-new-icon%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btCancel" layoutX="692.0" layoutY="458.0" mnemonicParsing="false" onAction="#cnc" prefHeight="40.0" prefWidth="40.0">
+         <graphic>
+            <ImageView>
+               <image>
+                  <Image url="@../icons/fechar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
